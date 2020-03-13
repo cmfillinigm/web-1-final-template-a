@@ -34,58 +34,65 @@
 
     <!-- Random Image -->
     <img src="http://placehold.it/200?text=Image 1" 
-        alt="Placholder"
-        id="rando-image">
+        alt="Placholder">
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fuga sit iusto dolore illo quisquam dicta eius earum aliquam? Adipisci quis consequuntur sit nostrum cupiditate? Facilis exercitationem tempora doloremque aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi odio hic optio necessitatibus ducimus earum accusantium exercitationem, soluta voluptate nihil. Pariatur iure minus consequatur voluptate nihil placeat ipsa suscipit? Vel.</p>
     
   </section>
-    
-    <!-- Slider/Carousel -->
-    <aside class="carousel">
-
-        <section class="cell">
-          
-          <!-- Your Content -->
-          <h3><a href="#">Header</a></h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur.</p>
-        
-        </section>
-        
-        <section class="cell">
-          
-          <h3><a href="#">Header</a></h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse debitis autem rerum magni omnis, id perspiciatis numquam eius consequuntur, qui quis reiciendis iusto suscipit quas officiis doloribus unde aliquid quibusdam!</p>
-        
-        </section>
-        
-        <section class="cell">
-          
-          <h3><a href="#">Header</a></h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur.</p>
-        
-        </section>  
-      
-    </aside>
 
     <!-- Lightbox Gallery -->
-    <div id="galleryContainer">
+    <section>
       
       <h3>Portfolio</h3>
+      
+      <div class="gallery-container">
 
-      <a href="img/fullsize/fullsize-1.png">
-        <img src="img/thumbs/thumb-1.png" alt="Thumbnail">
-      </a>
+      <!-- Thumbnail Info -->
+      <figure>
+          <a href="#item-1">
+            <img src="http://placehold.it/200" alt="Placeholder" />
+        <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa repellat debitis laudantium atque odit sunt, nesciunt quia.</figcaption>
+        </a>
+      </figure>
 
-      <a href="img/fullsize/fullsize-2.png">
-        <img src="img/thumbs/thumb-2.png" alt="Thumbnail">
+      <figure>
+        <a href="#item-1">
+          <img src="http://placehold.it/200" alt="Placeholder" />
+      <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa repellat debitis laudantium atque odit sunt, nesciunt quia.</figcaption>
       </a>
+    </figure>
 
-      <a href="img/fullsize/fullsize-3.png">
-        <img src="img/thumbs/thumb-3.png" alt="Thumbnail">
-      </a>
+    <figure>
+      <a href="#item-1">
+        <img src="http://placehold.it/200" alt="Placeholder" />
+    <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa repellat debitis laudantium atque odit sunt, nesciunt quia.</figcaption>
+    </a>
+  </figure>
 
     </div>
+
+
+      <!--  Overlay for Item 1-->
+      <div class="overlay" id="item-1">
+        <a href="#">
+          <img src="https://picsum.photos/600" alt="Placeholder" />
+        </a>
+      </div>
+      <!--  Overlay for Item 2-->
+      <div class="overlay" id="item-2">
+        <a href="#">
+          <img src="https://picsum.photos/600" alt="Placeholder" />
+        </a>
+      </div>
+      <!--  Overlay for Item 3-->
+      <div class="overlay" id="item-3">
+        <a href="#">
+          <img src="https://picsum.photos/600" alt="Placeholder" />
+        </a>
+      </div>
+      <!-- etc. -->
+
+    </section>
 
     <!-- Contact Form -->
     <footer>

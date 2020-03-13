@@ -2,6 +2,8 @@
 
 Sample `Username.GitHub.io` website with: 
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/web-1-final-example)
+
 ## Requirements
 * Add your Content
 * Add your Designs

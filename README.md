@@ -1,7 +1,6 @@
 # My Website (Template A)
 
 * Template A for Web 1 Final Website
-  
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/web-1-final-example)
 

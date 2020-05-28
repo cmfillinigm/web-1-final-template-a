@@ -22,77 +22,78 @@
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
+
 <body>
   
-  <!-- Wrapper Container -->
   <main>
 
-    <section class="bio">
-
-    <!-- Splitting Characters -->
-    <h1>Your Name</h1>
-
-    <!-- Random Image -->
-    <img src="http://placehold.it/200?text=Image 1" 
-        alt="Placholder">
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fuga sit iusto dolore illo quisquam dicta eius earum aliquam? Adipisci quis consequuntur sit nostrum cupiditate? Facilis exercitationem tempora doloremque aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi odio hic optio necessitatibus ducimus earum accusantium exercitationem, soluta voluptate nihil. Pariatur iure minus consequatur voluptate nihil placeat ipsa suscipit? Vel.</p>
+    <article class="bio">
     
-  </section>
+      <h1>Your Name</h1>
+      
+      <img src="/img/bio.png" alt="Add Your Name">
 
-    <!-- Lightbox Gallery -->
-    <section>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fuga sit iusto dolore illo quisquam dicta eius earum aliquam? Adipisci quis consequuntur sit nostrum cupiditate? Facilis exercitationem tempora doloremque aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi odio hic optio necessitatibus ducimus earum accusantium exercitationem, soluta voluptate nihil. Pariatur iure minus consequatur voluptate nihil placeat ipsa suscipit? Vel.</p>
+    
+    </article>
+
+    <!-- Portfolio with Lightbox -->
+    <aside class="portfolio">
       
       <h3>Portfolio</h3>
       
-      <div class="gallery-container">
+      <section>
 
-      <!-- Thumbnail Info -->
+      <!-- Thumbnail for Item 1 -->
       <figure>
           <a href="#item-1">
-            <img src="http://placehold.it/200" alt="Placeholder" />
+            <img src="/img/thumbs/thumb-1.png" alt="Placeholder" />
         <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa repellat debitis laudantium atque odit sunt, nesciunt quia.</figcaption>
         </a>
       </figure>
 
+      <!-- Thumbnail for Item 2 -->
       <figure>
-        <a href="#item-1">
-          <img src="http://placehold.it/200" alt="Placeholder" />
+        <a href="#item-2">
+          <img src="/img/thumbs/thumb-2.png" alt="Placeholder" />
       <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa repellat debitis laudantium atque odit sunt, nesciunt quia.</figcaption>
       </a>
-    </figure>
+      </figure>
 
-    <figure>
-      <a href="#item-1">
-        <img src="http://placehold.it/200" alt="Placeholder" />
+      <!-- Thumbnail for Item 3 -->
+      <figure>
+      <a href="#item-3">
+        <img src="/img/thumbs/thumb-3.png" alt="Placeholder" />
     <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa repellat debitis laudantium atque odit sunt, nesciunt quia.</figcaption>
     </a>
-  </figure>
+      </figure>
 
-    </div>
-
+      </section>
 
       <!--  Overlay for Item 1-->
       <div class="overlay" id="item-1">
         <a href="#">
-          <img src="https://picsum.photos/600" alt="Placeholder" />
+          <img src="/img/fullsize/fullsize-1.png" alt="Placeholder" />
         </a>
+        <button>Close</button>
       </div>
+
       <!--  Overlay for Item 2-->
       <div class="overlay" id="item-2">
         <a href="#">
-          <img src="https://picsum.photos/600" alt="Placeholder" />
+          <img src="/img/fullsize/fullsize-2.png" alt="Placeholder" />
         </a>
       </div>
+      
       <!--  Overlay for Item 3-->
       <div class="overlay" id="item-3">
         <a href="#">
-          <img src="https://picsum.photos/600" alt="Placeholder" />
+          <img src="/img/fullsize/fullsize-3.png" alt="Placeholder" />
         </a>
       </div>
       <!-- etc. -->
 
-    </section>
+    </aside>
 
     <!-- Contact Form -->
     <footer>
@@ -118,6 +119,7 @@
         </p>
       </form>
       
+      <p>Footer content. Footer content. Footer content.</p>
 
     </footer>
 

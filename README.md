@@ -1,6 +1,7 @@
-# Web 1 - Username.GitHub.io - Example
+# My Website (Template A)
 
-Sample `Username.GitHub.io` website with: 
+* Template A for Web 1 Final Website
+  
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/web-1-final-example)
 
@@ -9,7 +10,7 @@ Sample `Username.GitHub.io` website with:
 * Add your Designs
 * Portfolio with at least 3 items
 * Setup Contact Form
-* 404 Page
+* Add content and design 404 Page
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/web-1-final-example)
  

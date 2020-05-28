@@ -2,7 +2,7 @@
 
 * Template A for Web 1 Final Website
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/web-1-final-example)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/web-1-final-template-a)
 
 ## Requirements
 * Add your Content
@@ -11,7 +11,7 @@
 * Setup Contact Form
 * Add content and design 404 Page
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/web-1-final-example)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/web-1-final-template-a)
  
 
 
